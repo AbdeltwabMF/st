@@ -1,5 +1,5 @@
 # Simple Terminal (st)
-my own build of suckless st
+### my own build of suckless st
 
 ## Unique features (using dmenu)
 - follow urls by pressing `alt-l`
