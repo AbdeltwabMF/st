@@ -7,11 +7,12 @@
  **/
 
 static char *font = "FantasqueSansMono-Regular:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = {
-  "JoyPixels:pixelsize=14:antialias=true:autohint=true",
-  "FantasqueSansMono-Regular:pixelsize=14:antialias=true:autohint=true"
-};
 static int borderpx = 2;
+
+static char *font2[] = {
+  "FantasqueSansMono-Regular:pixelsize=16:antialias=true:autohint=true"
+  "JoyPixels:pixelsize=14:antialias=true:autohint=true",
+};
 
 /**
  * What program is execed by 'st' depends of these precedence rules:
