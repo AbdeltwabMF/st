@@ -1,5 +1,5 @@
-/** 
- * See LICENSE file for copyright and license details. 
+/**
+ * See LICENSE file for copyright and license details.
  **/
 
 /**
@@ -11,7 +11,7 @@ static int borderpx = 2;
 
 static char *font2[] = {
   "FantasqueSansMono-Regular:pixelsize=16:antialias=true:autohint=true"
-  "JoyPixels:pixelsize=14:antialias=true:autohint=true",
+  "JoyPixels:pixelsize=14:antialias=true:autohint=true"
 };
 
 /**
@@ -26,21 +26,21 @@ static char *font2[] = {
 static char *shell = "/bin/sh";
 char *utmp = NULL;
 
-/** 
- * scroll program: to enable use a string like "scroll" 
+/**
+ * scroll program: to enable use a string like "scroll"
  **/
 
 char *scroll = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
-/** 
- * identification sequence returned in DA and DECID 
+/**
+ * identification sequence returned in DA and DECID
  **/
 
 char *vtiden = "\033[?6c";
 
-/** 
- * Kerning / character bounding-box multipliers 
+/**
+ * Kerning / character bounding-box multipliers
  **/
 
 static float cwscale = 1.0;
@@ -53,22 +53,22 @@ static float chscale = 1.0;
 
 wchar_t *worddelimiters = L" ";
 
-/** 
- * selection timeouts (in milliseconds) 
+/**
+ * selection timeouts (in milliseconds)
  **/
 
 static unsigned int doubleclicktimeout = 300;
 static unsigned int tripleclicktimeout = 600;
 
-/** 
- * alt screens 
+/**
+ * alt screens
  **/
 
 int allowaltscreen = 1;
 
-/** 
+/**
  ** allow certain non-interactive (insecure) window operations such as:
- * setting the clipboard text 
+ * setting the clipboard text
  **/
 
 int allowwindowops = 0;
@@ -105,8 +105,8 @@ static unsigned int cursorthickness = 2;
 const int boxdraw = 1;
 const int boxdraw_bold = 0;
 
-/** 
- * braille (U28XX):  1: render as adjacent "pixels",  0: use font 
+/**
+ * braille (U28XX):  1: render as adjacent "pixels",  0: use font
  **/
 
 const int boxdraw_braille = 0;
@@ -117,8 +117,8 @@ const int boxdraw_braille = 0;
 
 static int bellvolume = 0;
 
-/** 
- * default TERM value 
+/**
+ * default TERM value
  **/
 
 char *termname = "st-256color";
@@ -141,14 +141,14 @@ char *termname = "st-256color";
 
 unsigned int tabspaces = 8;
 
-/** 
- * bg opacity 
+/**
+ * bg opacity
  **/
 
 float alpha = 0.8;
 
-/** 
- * Terminal colors (16 first used in escape sequence) 
+/**
+ * Terminal colors (16 first used in escape sequence)
  **/
 
 static const char *colorname[] = {
@@ -283,8 +283,8 @@ static MouseShortcut mshortcuts[] = {
   { XK_ANY_MOD,           Button5, ttysend,        {.s = "\005"}          },
 };
 
-/** 
- * Internal keyboard shortcuts. 
+/**
+ * Internal keyboard shortcuts.
  **/
 
 #define MODKEY   Mod1Mask
