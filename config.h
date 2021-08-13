@@ -23,7 +23,7 @@ static char *font2[] = {
  * 5: value of shell in config.h
  **/
 
-static char *shell = "/bin/sh";
+static char *shell = "/usr/bin/bash";
 char *utmp = NULL;
 
 /**
