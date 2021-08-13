@@ -11,7 +11,9 @@ static int borderpx = 2;
 
 static char *font2[] = {
   "FantasqueSansMono-Regular:pixelsize=16:antialias=true:autohint=true"
-  "JoyPixels:pixelsize=14:antialias=true:autohint=true"
+  "JoyPixels:pixelsize=16:antialias=true:autohint=true"
+  "Symbola:pixelsize=16:antialias=true:autohint=true"
+  "Ubuntu Arabic:pixelsize=16:antialias=true:autohint=true"
 };
 
 /**
