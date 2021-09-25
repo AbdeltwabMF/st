@@ -6,16 +6,18 @@
  * Appearance
  **/
 
-static char *font = "FantasqueSansMono-Regular:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Fantasque Sans Mono:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 2;
 
 static char *font2[] = {
-  "FantasqueSansMono-Regular:pixelsize=16:antialias=true:autohint=true"
-  "fontawesome-regular:pixelsize=18:antialias=true:autohint=true"
-  "TwitterColorEmoji-SVGinOT:pixelsize=16:antialias=true:autohint=true"
-  "Ubuntu Arabic:pixelsize=16:antialias=true:autohint=true"
-  "JoyPixels:pixelsize=10:antialias=true:autohint=true"
-  "Symbola:pixelsize=10:antialias=true:autohint=true"
+  "Fantasque Sans Mono:pixelsize=18:antialias=true:autohint=true",
+  "Ubuntu Arabic:pixelsize=18:antialias=true:autohint=true",
+  "FontAwesome:pixelsize=14:antialias=true:autohint=true",
+  "SauceCodePro Nerd Font:pixelsize=12:antialias=true:autohint=true",
+  "Pomodoro:pixelsize=14:antialias=true:autohint=true",
+  "octicons:pixelsize=14:antialias=true:autohint=true",
+  "icomoon:pixelsize=14:antialias=true:autohint=true",
+  "JoyPixels:pixelsize=12:antialias=true:autohint=true"
 };
 
 /**
