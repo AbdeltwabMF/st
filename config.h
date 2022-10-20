@@ -11,9 +11,11 @@ static int borderpx = 2;
 
 static char *font2[] = {
   "Fantasque Sans Mono:pixelsize=18:antialias=true:autohint=true",
-  "Ubuntu Arabic:pixelsize=18:antialias=true:autohint=true",
+	"DejaVu Sans:pixelsize=18:antialias=true:autohint=true",
+	"Noto Sans Mono:pixelsize=18:antialias=true:autohint=true",
   "FontAwesome:pixelsize=14:antialias=true:autohint=true",
   "SauceCodePro Nerd Font:pixelsize=12:antialias=true:autohint=true",
+  "Ubuntu Arabic:pixelsize=18:antialias=true:autohint=true",
   "Pomodoro:pixelsize=14:antialias=true:autohint=true",
   "octicons:pixelsize=14:antialias=true:autohint=true",
   "icons\-in\-terminal:pixelsize=14:antialias=true:autohint=true",
