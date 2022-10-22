@@ -6,21 +6,17 @@
  * Appearance
  **/
 
-static char *font = "Fantasque Sans Mono:pixelsize=18:antialias=true:autohint=true";
+static char *font = "FantasqueSansMono Nerd Font Mono:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 2;
 
 static char *font2[] = {
-  "Fantasque Sans Mono:pixelsize=18:antialias=true:autohint=true",
-	"DejaVu Sans:pixelsize=18:antialias=true:autohint=true",
-	"Noto Sans Mono:pixelsize=18:antialias=true:autohint=true",
-  "FontAwesome:pixelsize=14:antialias=true:autohint=true",
-  "SauceCodePro Nerd Font:pixelsize=12:antialias=true:autohint=true",
-  "Ubuntu Arabic:pixelsize=18:antialias=true:autohint=true",
-  "Pomodoro:pixelsize=14:antialias=true:autohint=true",
-  "octicons:pixelsize=14:antialias=true:autohint=true",
-  "icons\-in\-terminal:pixelsize=14:antialias=true:autohint=true",
-  "icomoon:pixelsize=14:antialias=true:autohint=true",
-  "JoyPixels:pixelsize=12:antialias=true:autohint=true"
+	"FantasqueSansMono Nerd Font Mono:pixelsize=18:antialias=true:autohint=true",
+	"Noto Color Emoji:pixelsize=16:antialias=true:autohint=true",
+	"JoyPixels:pixelsize=16:antialias=true:autohint=true",
+	"DejaVu Sans:pixelsize=16:antialias=true:autohint=true",
+	"Noto Sans Mono:pixelsize=16:antialias=true:autohint=true",
+	"Noto Sans Arabic:pixelsize=18:antialias=true:autohint=true",
+	"Amiri Quran Colored:pixelsize=18:antialias=true:autohint=true"
 };
 
 /**
