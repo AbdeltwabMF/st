@@ -16,7 +16,10 @@ static char *font2[] = {
 	"DejaVu Sans:pixelsize=16:antialias=true:autohint=true",
 	"Noto Sans Mono:pixelsize=16:antialias=true:autohint=true",
 	"Noto Sans Arabic:pixelsize=18:antialias=true:autohint=true",
-	"Amiri Quran Colored:pixelsize=18:antialias=true:autohint=true"
+	"Amiri Quran Colored:pixelsize=18:antialias=true:autohint=true",
+	"Noto Sans Hebrew:pixelsize=18:antialias=true:autohint=true",
+	"Noto Sans KR:pixelsize=18:antialias=true:autohint=true",
+	"Noto Sans JP:pixelsize=18:antialias=true:autohint=true"
 };
 
 /**
