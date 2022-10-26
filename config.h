@@ -11,8 +11,8 @@ static int borderpx = 2;
 
 static char *font2[] = {
 	"FantasqueSansMono Nerd Font Mono:pixelsize=18:antialias=true:autohint=true",
-	"Noto Color Emoji:pixelsize=16:antialias=true:autohint=true",
-	"JoyPixels:pixelsize=16:antialias=true:autohint=true",
+	"Noto Color Emoji:pixelsize=15:antialias=true:autohint=true",
+	"JoyPixels:pixelsize=15:antialias=true:autohint=true",
 	"DejaVu Sans:pixelsize=16:antialias=true:autohint=true",
 	"Noto Sans Mono:pixelsize=16:antialias=true:autohint=true",
 	"Noto Sans Arabic:pixelsize=18:antialias=true:autohint=true",
